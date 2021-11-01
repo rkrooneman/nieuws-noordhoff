@@ -98,7 +98,8 @@
         text-decoration: none;
     }
 
-.footerLogo {
-    height: auto;
-    max-width: 120px;
-}
+    .footerLogo {
+        height: auto;
+        max-width: 120px;
+        margin: 0px 14.25rem;
+    }
