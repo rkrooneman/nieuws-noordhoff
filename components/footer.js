@@ -25,7 +25,7 @@ return (
                 <a href="/lijsters" target="_self" className="jwNkjt">Lijsters</a>
             </span>
             <span className="ihGqol">
-                <p className="hZTyCR">Volg ons</p>
+                <p className="hZTyCR font-bold">Volg ons</p>
                 <div className="lgaemT">
                     <a href="https://www.facebook.com/noordhoff.nl/" title="facebook" className="SocialMediaIconsstyled__SocialMediaIcon-sc-1elqtpv-1 jIUsVt">
                         <span className="boHNHP"><img alt="facebook" width="32" height="32" src="data:image/svg+xml;utf8,<svg viewBox=&quot;0 0 512 512&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><path d=&quot;m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0 0&quot;/></svg>" /></span>
