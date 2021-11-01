@@ -3,18 +3,3 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
-
-@font-face {
-    font-family: Grotesk;
-    src: url(Px-Grotesk-Bold.woff);
-}
-
-@font-face {
-    font-family: Bliss;
-    src: url("BlissPro - Bliss Pro - Regular.woff");
-}
-
-* {
-    box-sizing: border-box;
-    font-family: Bliss2, Helvetica, Arial, sans-serif;
-}
