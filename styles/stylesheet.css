@@ -1,0 +1,30 @@
+    @font-face {
+        font-family: Grotesk;
+        src: url(Px-Grotesk-Bold.woff);
+    }
+
+    @font-face {
+        font-family: Bliss;
+        src: url("BlissPro - Bliss Pro - Regular.woff");
+    }
+
+    * {
+        box-sizing: border-box;
+        font-family: Bliss2, Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+        color: rgb(31, 32, 34);
+        display: inline;
+        background-image: linear-gradient(120deg, rgb(245, 180, 0) 0%, rgb(245, 180, 0) 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.2em;
+        background-position: 0px 85%;
+        font-family: "Px Grotesk Bold", Helvetica, Arial, sans-serif;
+        font-size: 5rem;
+        margin-bottom: 6.25rem;
+        margin: 0.67em 0px;
+        line-height: 5rem;
+        margin-top: 0px;
+        word-break: break-word;
+    }
