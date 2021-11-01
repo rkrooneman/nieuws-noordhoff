@@ -33,6 +33,6 @@
         font-family: Bliss;
     }
 
-    grid {
+    .grid {
         grid-gap: 1.25rem;
     }
