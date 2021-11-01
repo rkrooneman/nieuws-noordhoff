@@ -6,7 +6,6 @@ return (
 <footer className="bg-accent-1 border-t border-accent-2">
     <Container>
         <div className="py-28 flex flex-col lg:flex-row items-center">
-            <div className="">
                 <div class="FooterContentstyled__StyledContent-sc-6pejeb-0 cfqyfR">
                     <span class="InnerLinksstyled__LinksWrapper-sc-ifkhc1-0 bdXuoL">
                         <a href="/over-ons" target="_self" class="InnerLinksstyled__Link-sc-ifkhc1-2 jwNkjt">Over ons</a>
@@ -45,7 +44,6 @@ return (
                     </span>
                 </div>
             </div>
-        </div>
     </Container>
 </footer>
 )
