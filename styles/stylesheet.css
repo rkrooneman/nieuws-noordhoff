@@ -36,3 +36,24 @@
     .grid {
         grid-gap: 1.25rem;
     }
+
+    .cfqyfR {
+        min-width: 80 rem;
+        padding: 2.5 rem 14.25 rem 0 px;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+
+    .bdXuoL {
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: end;
+        justify-content: flex-end;
+    }
+
+    .jwNkjt {
+        display: block;
+        margin-bottom: 1 rem;
+        text-decoration: none;
+    }
