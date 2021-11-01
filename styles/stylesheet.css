@@ -67,6 +67,7 @@
     }
 
     .lgaemT {
+        display: flex;
         flex-direction: row;
         -webkit-box-pack: justify;
         justify-content: space-between;
