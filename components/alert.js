@@ -24,7 +24,7 @@ export default function Alert({ preview }) {
               to exit preview mode.
             </>
           ) : (
-            <>
+            <span>
               Dit is een testpagina voor nieuws van {' '}
               <a
                 href={`https://www.noordhoff.nl`}
@@ -33,7 +33,7 @@ export default function Alert({ preview }) {
                 Noordhoff
               </a>
               .
-            </>
+            </span>
           )}
         </div>
       </Container>
