@@ -4,7 +4,7 @@ import { EXAMPLE_PATH } from '../lib/constants'
 export default function Footer() {
 return (
 <footer className="bg-accent-1 border-t border-accent-2">
-    <div className="pt-14 flex flex-col lg:flex-row items-center">
+    <div className="pt-14 flex flex-col lg:flex-col items-center">
         <img className="footerLogo" src="https://images.ctfassets.net/huogrpkfou0w/7CY7o7KCg3JTy6ZuLyj0Ij/38cd70bf0eaf35f9f7511e3f9f4ffca9/Noordhoff_logo_horizontaal-SVG_v6.svg" />
         <div className="cfqyfR">
             <span className="bdXuoL">
