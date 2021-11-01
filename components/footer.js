@@ -44,14 +44,14 @@ return (
                 </span>
             </div>
         </div>
+        <div className="kELfYg">
+            <span className="Copyrightstyled__CopyrightWrapper-sc-g4erap-0 cWsCHU">
+                <a href="/voorwaarden" target="_self" className="Copyrightstyled__CopyrightLink-sc-g4erap-1 fabWWL">Voorwaarden</a>
+                <a href="/privacy" target="_self" className="Copyrightstyled__CopyrightLink-sc-g4erap-1 fabWWL">Privacy &amp; Cookies</a>
+                <a href="/" target="_self" className="Copyrightstyled__CopyrightLink-sc-g4erap-1 fabWWL">© Noordhoff Uitgevers bv</a>
+            </span>
+        </div>
     </Container>
-    <div className="kELfYg">
-        <span className="Copyrightstyled__CopyrightWrapper-sc-g4erap-0 cWsCHU">
-            <a href="/voorwaarden" target="_self" className="Copyrightstyled__CopyrightLink-sc-g4erap-1 fabWWL">Voorwaarden</a>
-            <a href="/privacy" target="_self" className="Copyrightstyled__CopyrightLink-sc-g4erap-1 fabWWL">Privacy &amp; Cookies</a>
-            <a href="/" target="_self" className="Copyrightstyled__CopyrightLink-sc-g4erap-1 fabWWL">© Noordhoff Uitgevers bv</a>
-        </span>
-    </div>
 </footer>
 )
 }
