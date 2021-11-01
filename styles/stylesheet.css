@@ -65,3 +65,9 @@
         font-size: 1rem;
         font-family: "Bliss2 Bold", Helvetica, Arial, sans-serif;
     }
+
+    .lgaemT {
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
