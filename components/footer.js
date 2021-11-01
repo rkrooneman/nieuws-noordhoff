@@ -5,7 +5,7 @@ export default function Footer() {
 return (
 <footer className="bg-accent-1 border-t border-accent-2">
     <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
+        <div className="pt-28 flex flex-col lg:flex-row items-center">
             <div className="cfqyfR">
                 <span className="bdXuoL">
                     <a href="/over-ons" target="_self" className="jwNkjt">Over ons</a>
@@ -46,7 +46,6 @@ return (
         </div>
     </Container>
     <div className="kELfYg">
-        <span></span>
         <span className="Copyrightstyled__CopyrightWrapper-sc-g4erap-0 cWsCHU">
             <a href="/voorwaarden" target="_self" className="Copyrightstyled__CopyrightLink-sc-g4erap-1 fabWWL">Voorwaarden</a>
             <a href="/privacy" target="_self" className="Copyrightstyled__CopyrightLink-sc-g4erap-1 fabWWL">Privacy &amp; Cookies</a>
