@@ -17,7 +17,7 @@ return (
                         <a href="/sponsoring" target="_self" class="InnerLinksstyled__Link-sc-ifkhc1-2 jwNkjt">Sponsoring</a>
                     </span>
                     <span class="InnerLinksstyled__LinksWrapper-sc-ifkhc1-0 bdXuoL">
-                        <p class="InnerLinksstyled__LinkTitle-sc-ifkhc1-1 jZezFC bold">Meer van Noordhoff</p>
+                        <p class="InnerLinksstyled__LinkTitle-sc-ifkhc1-1 jZezFC font-bold">Meer van Noordhoff</p>
                         <a href="https://www.noordhoffacademy.nl/" target="_blank" class="InnerLinksstyled__Link-sc-ifkhc1-2 jwNkjt">Noordhoff Academy</a>
                         <a href="https://noordhoffwebinars.nl/" target="_blank" class="InnerLinksstyled__Link-sc-ifkhc1-2 jwNkjt">Noordhoff Webinars</a>
                     </span>
