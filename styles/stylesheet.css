@@ -72,3 +72,13 @@
         -webkit-box-pack: justify;
         justify-content: space-between;
     }
+
+    .kELfYg {
+        min-width: 80 rem;
+        padding: 0 px 14.25 rem;
+        display: flex;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        background-color: rgb(229, 229, 229);
+    }
