@@ -97,3 +97,8 @@
         color: rgb(31, 32, 34);
         text-decoration: none;
     }
+
+.footerLogo {
+    height: auto;
+    max-width: 120px;
+}

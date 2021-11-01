@@ -4,7 +4,8 @@ import { EXAMPLE_PATH } from '../lib/constants'
 export default function Footer() {
 return (
 <footer className="bg-accent-1 border-t border-accent-2">
-    <div className="pt-28 flex flex-col lg:flex-row items-center">
+    <img className="footerLogo" src="/styles/images/Noordhoff_logo_horizontaal-SVG_v6.webp" />
+    <div className="pt-14 flex flex-col lg:flex-row items-center">
         <div className="cfqyfR">
             <span className="bdXuoL">
                 <a href="/over-ons" target="_self" className="jwNkjt">Over ons</a>
