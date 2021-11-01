@@ -25,12 +25,12 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              The source code for this blog is{' '}
+              Dit is een testpagina voor nieuws van {' '}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+                href={`https://www.noordhoff.nl`}
                 className="underline hover:text-success duration-200 transition-colors"
               >
-                available on GitHub
+                Noordhoff
               </a>
               .
             </>
