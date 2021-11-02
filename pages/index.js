@@ -9,7 +9,7 @@ import {
 import Head from 'next/head'
 import {
     CMS_NAME
-} from '../lib/constants'
+} from '../lib/constants';
 
 type Props = {
     entries: allPosts[];
