@@ -15,18 +15,16 @@
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 1fr 3fr;
         max-width: 90rem;
     }
 
     .navigation {
         height: 100%;
-        width: 200px;
         z-index: 1;
         top: 0;
         left: 0;
         background-color: #f0f0f0;
-        overflow-x: hidden;
         padding-top: 10rem;
     }
 
@@ -156,3 +154,8 @@
     }
 
     .navGroup {}
+
+    .navLogo {
+        height: auto;
+        width: 60%;
+}
