@@ -7,7 +7,29 @@ import { getAllPostsForHome } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 
-
+var IndexPage = function (props) {
+    var router = useRouter();
+    var entries = props.entries.length ? props.entries : [];
+    var tags = props.tags || [];
+    var total = props.total;
+    var limit = props.limit;
+    var rangeLimit = Math.ceil(total / limit);
+    var range = calculateRange(rangeLimit);
+    var _a = useState(!!props.page ? props.page : 1), page = _a[0], updatePage = _a[1];
+    var _b = useState(''), tag = _b[0], updateTag = _b[1];
+    useEffect(function () {
+        void router.push({
+            pathname: '/',
+            query: {
+                page: page,
+                tag: tag
+            }
+        });
+    }, [page, tag]);
+    var handleTagChosen = function (tag) {
+        updatePage(1);
+        updateTag(tag);
+    };
 
 export default function Index({ preview, allPosts }) {
   const heroPost = allPosts[0]
