@@ -19,104 +19,104 @@ export default function Index({
 }) {
     const heroPost = allPosts[0]
     const morePosts = allPosts.slice(1)
+}
+type Props = {
+    entries: allPosts[];
+    tags: {
+        id: string,
+        name: string
+    } [];
+    url: any;
+    total: number;
+    skip: number;
+    limit: number;
+    page ? : number;
+}
 
-    type Props = {
-        entries: allPosts[];
-        tags: {
-            id: string,
-            name: string
-        } [];
-        url: any;
-        total: number;
-        skip: number;
-        limit: number;
-        page ? : number;
-    };
+const IndexPage: NextPage = (props: Props) => {
+        const router = useRouter();
+        const entries = props.entries.length ? props.entries : [];
+        const tags = props.tags || [];
+        const total = props.total;
 
-    const IndexPage: NextPage = (props: Props) => {
-            const router = useRouter();
-            const entries = props.entries.length ? props.entries : [];
-            const tags = props.tags || [];
-            const total = props.total;
+        const limit = props.limit;
+        const rangeLimit = Math.ceil(total / limit);
+        const range = calculateRange(rangeLimit);
 
-            const limit = props.limit;
-            const rangeLimit = Math.ceil(total / limit);
-            const range = calculateRange(rangeLimit);
+        const [page, updatePage] = useState(!!props.page ? props.page : 1);
+        const [tag, updateTag] = useState('');
 
-            const [page, updatePage] = useState(!!props.page ? props.page : 1);
-            const [tag, updateTag] = useState('');
+        useEffect(() => {
+            void router.push({
+                pathname: '/',
+                query: {
+                    page: page,
+                    tag: tag
+                }
+            });
+        }, [page, tag]);
 
-            useEffect(() => {
-                void router.push({
-                    pathname: '/',
-                    query: {
-                        page: page,
-                        tag: tag
+        const handleTagChosen = (tag) => {
+            updatePage(1);
+            updateTag(tag);
+        };
+
+        return ( <
+            >
+            <
+            Layout preview = {
+                preview
+            } >
+            <
+            Head >
+            <
+            title > Next.js Blog Example with {
+                CMS_NAME
+            } < /title> < /
+            Head > <
+            Container >
+            <
+            Intro / > {
+                heroPost && ( <
+                    HeroPost title = {
+                        heroPost.title
                     }
-                });
-            }, [page, tag]);
-
-            const handleTagChosen = (tag) => {
-                updatePage(1);
-                updateTag(tag);
-            };
-
-            return ( <
-                >
-                <
-                Layout preview = {
-                    preview
-                } >
-                <
-                Head >
-                <
-                title > Next.js Blog Example with {
-                    CMS_NAME
-                } < /title> <
-                /Head> <
-                Container >
-                <
-                Intro / > {
-                    heroPost && ( <
-                        HeroPost title = {
-                            heroPost.title
-                        }
-                        coverImage = {
-                            heroPost.coverImage
-                        }
-                        date = {
-                            heroPost.date
-                        }
-                        author = {
-                            heroPost.author
-                        }
-                        slug = {
-                            heroPost.slug
-                        }
-                        excerpt = {
-                            heroPost.excerpt
-                        }
-                        />
-                    )
-                } {
-                    morePosts.length > 0 && < MoreStories posts = {
-                        morePosts
+                    coverImage = {
+                        heroPost.coverImage
                     }
-                    />} <
-                    /Container> <
-                    /Layout> <
+                    date = {
+                        heroPost.date
+                    }
+                    author = {
+                        heroPost.author
+                    }
+                    slug = {
+                        heroPost.slug
+                    }
+                    excerpt = {
+                        heroPost.excerpt
+                    }
                     />
                 )
-            }
-
-            export async function getStaticProps({
-                preview = false
-            }) {
-                const allPosts = (await getAllPostsForHome(preview)) ?? []
-                return {
-                    props: {
-                        preview,
-                        allPosts
-                    },
+            } {
+                morePosts.length > 0 && < MoreStories posts = {
+                    morePosts
                 }
+                />} < /
+                Container > <
+                    /Layout> < /
+                    >
+            )
+        }
+
+        export async function getStaticProps({
+            preview = false
+        }) {
+            const allPosts = (await getAllPostsForHome(preview)) ?? []
+            return {
+                props: {
+                    preview,
+                    allPosts
+                },
             }
+        }
