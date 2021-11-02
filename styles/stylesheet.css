@@ -142,7 +142,7 @@
         border-bottom: 3px solid rgb(0, 130, 200);
     }
 
-    a.navLink.groupStart.groupStart {
+    .navGroup.groupStart {
         display: block;
         padding-top: 3.25rem;
     }
