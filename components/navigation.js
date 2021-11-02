@@ -1,5 +1,5 @@
 export default function Navigation() {
-  return <nav className="navigation mx-auto px-5">
+  return <nav className="navigation mx-auto px-5 md:none lg:block">
             <a className="navLink groupStart groupEnd" href="/"><img className="navLogo" src="https://images.ctfassets.net/huogrpkfou0w/7CY7o7KCg3JTy6ZuLyj0Ij/38cd70bf0eaf35f9f7511e3f9f4ffca9/Noordhoff_logo_horizontaal-SVG_v6.svg" /></a>
             <span className="navGroup text-x1 font-bold groupStart">Marktgroepen</span>
             <hr className="navSeparator" /><a className="navLink">Basisonderwijs</a>
