@@ -1,3 +1,3 @@
 export default function Wrapper({ children }) {
-  return <div className="wrapper mx-auto px-5">{children}</div>
+  return <div className="wrapper mx-auto px-5 md:flex lg:grid">{children}</div>
 }
