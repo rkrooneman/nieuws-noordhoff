@@ -104,6 +104,8 @@
         margin: 0px 14.25rem;
     }
 
-    .itemHeader:hover {
+    .itemHeader:hover, .itemTitle:hover {
         border-bottom: 3px solid rgb(0, 130, 200);
     }
+
+
