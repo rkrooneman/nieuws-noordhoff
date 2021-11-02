@@ -5,8 +5,8 @@ export default function Footer() {
 return (
 <footer className="bg-accent-1 border-t border-accent-2">
     <div className="pt-7 flex flex-col lg:flex-col items-start">
-        <img className="footerLogo" src="https://images.ctfassets.net/huogrpkfou0w/7CY7o7KCg3JTy6ZuLyj0Ij/38cd70bf0eaf35f9f7511e3f9f4ffca9/Noordhoff_logo_horizontaal-SVG_v6.svg" />
-        <div className="cfqyfR md:flex-col lg:flex-row">
+        <img className="footerLogo lg:ml-57" src="https://images.ctfassets.net/huogrpkfou0w/7CY7o7KCg3JTy6ZuLyj0Ij/38cd70bf0eaf35f9f7511e3f9f4ffca9/Noordhoff_logo_horizontaal-SVG_v6.svg" />
+        <div className="cfqyfR lg:flex-row">
             <span className="bdXuoL">
                 <a href="/over-ons" target="_self" className="jwNkjt">Over ons</a>
                 <a href="/duurzaam-ondernemen" target="_self" className="jwNkjt">Duurzaam ondernemen</a>
