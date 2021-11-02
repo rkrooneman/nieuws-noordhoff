@@ -27,13 +27,12 @@
         left: 0;
         background-color: #ccc;
         overflow-x: hidden;
-        padding-top: 20px;
+        padding-top: 10rem;
     }
 
     .navigation a {
         padding: 6px 6px 6px 32px;
         text-decoration: none;
-        font-size: 25px;
         color: #000;
         display: block;
     }
@@ -127,6 +126,10 @@
         text-decoration: none;
     }
 
+    footer {
+        font-size: .85rem;
+    }
+
     .footerLogo {
         height: auto;
         max-width: 120px;
@@ -138,6 +141,6 @@
         border-bottom: 3px solid rgb(0, 130, 200);
     }
 
-.groupStart {}
+    .groupStart {}
 
-.groupEnd {}
+    .groupEnd {}
