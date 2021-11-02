@@ -1,5 +1,5 @@
 import Container from '../components/container'
-import Navigation from '.../components/navigation'
+import Navigation from '../components/navigation'
 import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
 import Intro from '../components/intro'
