@@ -31,7 +31,7 @@ export default function Index({
         skip: number;
         limit: number;
         page ? : number;
-    }
+    };
 
     const IndexPage: NextPage = (props: Props) => {
             const router = useRouter();
