@@ -16,6 +16,7 @@ export default function Index({ preview, allPosts }) {
         <Head>
           <title>Nieuws voor {CMS_NAME}</title>
         </Head>
+        <Navigation />
         <Container>
           <Intro />
           {heroPost && (
