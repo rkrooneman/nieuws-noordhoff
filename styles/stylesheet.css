@@ -19,6 +19,30 @@
         max-width: 90rem;
     }
 
+    .navigation {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #ccc;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .navigation a {
+        padding: 6px 6px 6px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #000;
+        display: block;
+    }
+
+    .navigation a:hover {
+        text-decoration: underline;
+    }
+
     h1 {
         color: rgb(31, 32, 34);
         display: inline;
