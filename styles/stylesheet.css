@@ -73,6 +73,12 @@
         justify-content: space-between;
     }
 
+    @media (max-width: 1024px) {
+        .cfqyfR {
+            padding: 2.5rem;
+        }
+    }
+
     .bdXuoL {
         display: flex;
         flex-direction: column;
@@ -158,4 +164,4 @@
     .navLogo {
         height: auto;
         width: 60%;
-}
+    }
