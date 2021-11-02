@@ -13,6 +13,11 @@
         font-family: Bliss2, Helvetica, Arial, sans-serif;
     }
 
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+
     h1 {
         color: rgb(31, 32, 34);
         display: inline;
@@ -104,8 +109,7 @@
         margin: 0px 14.25rem;
     }
 
-    .itemHeader:hover, .itemTitle:hover {
+    .itemHeader:hover,
+    .itemTitle:hover {
         border-bottom: 3px solid rgb(0, 130, 200);
     }
-
-
