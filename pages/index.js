@@ -1,3 +1,4 @@
+import Wrapper from '../components/wrapper'
 import Container from '../components/container'
 import Navigation from '../components/navigation'
 import MoreStories from '../components/more-stories'
@@ -17,6 +18,7 @@ export default function Index({ preview, allPosts }) {
         <Head>
           <title>Nieuws voor {CMS_NAME}</title>
         </Head>
+        <Wrapper>
         <Navigation />
         <Container>
           <Intro />
@@ -32,6 +34,7 @@ export default function Index({ preview, allPosts }) {
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
+        </Wrapper>   
       </Layout>
     </>
   )
