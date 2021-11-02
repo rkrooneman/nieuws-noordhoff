@@ -1,5 +1,9 @@
+import Link from 'next/link'
+
 export default function Navigation() {
   return <nav className="navigation mx-auto px-5">
-      
-      </nav>
+            <Link href="/">
+                <a className="navLink">Noordhoff Nieuws</a>
+            </Link>
+        </nav>
 }
