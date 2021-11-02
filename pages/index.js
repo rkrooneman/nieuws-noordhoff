@@ -19,21 +19,21 @@ export default function Index({ preview, allPosts }) {
           <title>Nieuws voor {CMS_NAME}</title>
         </Head>
         <Wrapper>
-        <Navigation />
-        <Container>
-          <Intro />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-        </Container>
+            <Navigation />
+            <Container>
+            <Intro />
+                {heroPost && (
+                    <HeroPost
+                        title={heroPost.title}
+                        coverImage={heroPost.coverImage}
+                        date={heroPost.date}
+                        author={heroPost.author}
+                        slug={heroPost.slug}
+                        excerpt={heroPost.excerpt}
+                    />
+                )}
+                {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+            </Container>
         </Wrapper>   
       </Layout>
     </>
