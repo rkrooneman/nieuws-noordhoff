@@ -1,3 +1,3 @@
-export default function Navigation({ children }) {
-  return <div className="navigation mx-auto px-5">{children}</div>
+export default function Navigation() {
+  return <div className="navigation mx-auto px-5"></div>
 }
