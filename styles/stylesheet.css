@@ -139,7 +139,11 @@
     .footerLogo {
         height: auto;
         max-width: 120px;
-        margin: 0px 2.25rem;
+        margin-left: 1.25rem;
+    }
+
+    .footerWrapper {
+        max-width: 90rem;
     }
 
     .itemHeader:hover,
